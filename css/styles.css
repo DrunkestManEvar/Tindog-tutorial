@@ -2,11 +2,32 @@
   background-color: #ff4c68;
 }
 
+.navbar {
+  font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero {
+  height: 75vh;
+  overflow: hidden;
+}
+
+#title .container-fluid {
+  padding-bottom: 0;
+}
+
 .main-heading {
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   font-weight: 900;
   line-height: 1.5;
+  margin-top: 8rem;
 }
 
 .container-fluid {
@@ -14,5 +35,16 @@
 }
 
 .btn-lg {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 2rem;
+}
+
+.hero-image-container {
+  position: relative;
+}
+
+.hero-image {
+  bottom: -30%;
+  position: absolute;
+  transform: rotate(25deg);
 }
