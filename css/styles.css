@@ -1,0 +1,18 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.main-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.btn-lg {
+  font-family: 'Montserrat', sans-serif;
+}
